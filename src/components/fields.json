@@ -1,0 +1,161 @@
+[
+    {
+        "width": "60", 
+        "title": "#", 
+        "field": "index_z___",
+        "fiexed": true
+    },
+    {
+        "width": "80", 
+        "title": "编码", 
+        "field": "record_id", 
+        "align": "left", 
+        "fiexed": true, 
+        "canHidden":true
+    }, 
+    {
+        "width": "160", 
+        "title": "物料名称", 
+        "field": "materiel", 
+        "align": "left", 
+        "fiexed": true,
+        "ctrl_type":"materiel-icon"
+    }, 
+    {
+        "width": "100", 
+        "title": "分类编码", 
+        "field": "record_id", 
+        "align": "left", 
+        "fiexed": true, 
+        "canHidden":true
+    }, 
+    {
+        "width": "100", 
+        "title": "分类", 
+        "field": "record_id", 
+        "align": "left", 
+        "fiexed": true, 
+        "canHidden":true
+    }, 
+    {
+        "width": "120", 
+        "title": "规格", 
+        "field": "record_id", 
+        "align": "left", 
+        "fiexed": false ,
+        "canHidden":true
+    }, 
+
+    {
+        "width": "100", 
+        "title": "仓库", 
+        "field": "area", 
+        "align": "left", 
+        "fiexed": false, 
+        "ctrl_type": "select", 
+        "prop_option": "areaoption"
+    }, 
+    {
+        "width": "80", 
+        "title": "单位", 
+        "field": "unit", 
+        "align": "left", 
+        "ctrl_type": "select", 
+        "prop_option": "rateoption",
+        "min": 0
+    }, 
+    {
+        "width": "100", 
+        "title": "申请数量", 
+        "field": "request_qauntity", 
+        "align": "right", 
+        "ctrl_type": "", 
+        "precision":2, 
+        "min": 0,
+        "canHidden":true
+    }, 
+    {
+        "width": "100", 
+        "title": "数量", 
+        "field": "qty", 
+        "align": "right", 
+        "ctrl_type": "input-number", 
+        "precision": 2, 
+        "min": 0 
+         
+
+    }, 
+
+    {
+        "width": "100", 
+        "title": "单价", 
+        "field": "price", 
+        "align": "right", 
+        "ctrl_type": "input-number", 
+        "precision": 4 
+      
+    }, 
+
+    {
+        "width": "60", 
+        "title": "赠品", 
+        "field": "issend", 
+        "align": "center", 
+        "fiexed": false, 
+        "ctrl_type": "checkbox"
+    }, 
+    {
+        "width": "100", 
+        "title": "税率", 
+        "field": "taxt_rate", 
+        "align": "right", 
+        "ctrl_type":"select-common",
+        "prop_option": "rateoption"
+    }, 
+    {
+        "width": "80", 
+        "title": "折扣%", 
+        "field": "discont", 
+        "align": "right", 
+        "ctrl_type": "input-number", 
+        "precision": 0,
+         
+        "max":100,
+        "min":0 
+        
+    }, 
+    {
+        "width": "100", 
+        "title": "金额", 
+        "field": "amt", 
+        "align": "right", 
+        "precision": 4
+    }, 
+
+    {
+        "width": "100", 
+        "title": "税额", 
+        "field": "amt_rate", 
+        "align": "right", 
+        "precision": 4
+    }, 
+    {
+        "width": "160", 
+        "title": "要求日期", 
+        "field": "date", 
+        "align": "left", 
+        "ctrl_type": "date-picker", 
+        "noresize":false,
+        "canHidden":false
+    },
+
+    {
+        "width": "200", 
+        "title": "备注", 
+        "field": "memo", 
+        "align": "left", 
+        "ctrl_type": "input-text", 
+        "maxlength": 70,
+        "canHidden":true
+    }
+]

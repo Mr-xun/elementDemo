@@ -1,0 +1,53 @@
+{
+    "rateoption":[
+    {
+        "value": 0, 
+        "label": "0%"
+    }, 
+    {
+        "value": 0.03, 
+        "label": "3%"        }, 
+    {
+        "value": 0.06, 
+        "label": "6%"       }, 
+    {
+        "value": 0.11, 
+        "label": "11%"
+    },
+    {
+        "value": 0.16, 
+        "label": "16%"
+    }
+    ],
+    "areaoption":[
+    {
+        "value": false, 
+        "label": 1
+    }, 
+    {
+        "value": true, 
+        "label": 0       
+    } 
+    ],
+    "materiel":[
+        {
+            "value": "UUID001", 
+            "label": "五花"
+        }, 
+        {
+            "value": "UUID002", 
+            "label": "五肉"        }, 
+        {
+            "value": "UUID003",
+            "label": "番茄"       }, 
+        {
+            "value": "UUID004",
+            "label": "苦瓜"
+        },
+        {
+            "value": "UUID005",
+            "label": "南国梨"
+        }
+        ]
+}
+

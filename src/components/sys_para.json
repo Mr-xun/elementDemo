@@ -1,0 +1,8 @@
+{
+    "rate_mdf":true,
+    "rate_mdf_desc":"订单允许修改税率",
+    "price_mdf":true,
+    "price_mdf_desc":"订单允许修改价格",
+    "discount_mdf":true,
+    "discount_mdf_desc":"订单允许修改折扣"
+}

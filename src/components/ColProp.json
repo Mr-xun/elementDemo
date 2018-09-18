@@ -1,0 +1,70 @@
+[
+    {
+        "width": "220",
+        "label1": "物料",
+        "prop": "materiel",
+        "align": "left",
+        "fiexed": true,
+        "ctrl_type": "input-text",
+        "read_only": true,
+        "maxlength": 10
+    },
+    {
+        "width": "150",
+        "label1": "仓库",
+        "prop": "area",
+        "align": "left",
+        "fiexed": false,
+        "ctrl_type": "select",
+        "prop_option": "areaoption"
+    },
+    {
+        "width": "60",
+        "label1": "赠品",
+        "prop": "issend",
+        "align": "center",
+        "fiexed": false,
+        "ctrl_type": "checkbox"
+    },
+
+    {
+        "width": "100",
+        "label1": "单位",
+        "prop": "unit",
+        "align": "left",
+        "ctrl_type": "select",
+        "min": 0
+    },
+    {
+        "width": "120",
+        "label1": "数量",
+        "prop": "qty",
+        "align": "right",
+        "ctrl_type": "input-number",
+        "precision": 2,
+        "min": 0
+    },
+    {
+        "width": "120",
+        "label1": "单价",
+        "prop": "price",
+        "align": "right",
+        "ctrl_type": "input-number",
+        "precision": 4
+    },
+    {
+        "width": "140",
+        "label1": "金额",
+        "prop": "amt",
+        "align": "right",
+        "precision": 6
+    },
+    {
+        "width": "200",
+        "label1": "备注",
+        "prop": "memo",
+        "align": "left",
+        "ctrl_type": "input-text",
+        "maxlength": 70
+    }
+]
